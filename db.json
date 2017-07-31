@@ -4652,7 +4652,9 @@
     "extensions": ["gtar"]
   },
   "application/x-gzip": {
-    "source": "apache"
+    "source": "apache",
+    "compressible": false,
+    "extensions": ["gz"]
   },
   "application/x-hdf": {
     "source": "apache",

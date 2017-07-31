@@ -292,6 +292,13 @@
       "http://www.phpied.com/gzip-your-font-face-files/"
     ]
   },
+  "application/x-gzip": {
+    "compressible": false,
+    "extensions": ["gz"],
+    "sources": [
+      "https://tools.ietf.org/html/rfc6713"
+    ]
+  },
   "application/x-httpd-php": {
     "compressible": true,
     "extensions": ["php"],
